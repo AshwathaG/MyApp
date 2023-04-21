@@ -1,0 +1,3 @@
+sudo docker build -t sqlapp .
+sudo docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Cisco@123$ash' -p 1433:1433 -d mcr.microsoft.com/mssql/server
+String connectionString = "Data Source=20.169.172.77;User ID=sa;Password=Cisco@123$ash; Initial Catalog = master";
