@@ -5,7 +5,7 @@
 }
 
 .card {
-    height: 507px;
+    height: 500px;
     width: 100%;
     bottom: -30px;
     left: -300px;
@@ -52,7 +52,9 @@
 .search button img {
             width: 28px;
         }
-
+.weather-icon {
+    height:180px;
+}
 .weather h1 {
     font-size: 40px;
     font-weight: 100;
