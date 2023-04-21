@@ -12,7 +12,7 @@ namespace sqlapp.Pages.Registration
         {
             try
             {
-                String connectionString = "Data Source=SQLSERVER;Initial Catalog=app;Integrated Security=True";
+                String connectionString = "Data Source=20.169.172.77;User ID=sa;Password=Cisco@123$ash; Initial Catalog = master";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
